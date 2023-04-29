@@ -1,0 +1,7 @@
+.aspect-w-4 {
+  width: 100%;
+}
+
+.aspect-h-5 {
+  padding-bottom: 125%; /* 5:4 aspect ratio */
+}
