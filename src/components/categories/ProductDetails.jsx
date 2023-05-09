@@ -41,7 +41,7 @@ const ProductDetails = ({
   }, [productIds, id])
 
   return (
-    <main className="mx-10 md:mx-4 lg:mx-10 mt-10 md:mt-6 md:h-screen">
+    <main className="mx-10 md:mx-4 lg:mx-10 my-10 md:mt-6 md:h-screen">
       {images.map(
         (item) =>
           item.id === id && (
